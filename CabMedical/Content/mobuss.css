@@ -1,0 +1,215 @@
+﻿.dropdown-menu-export
+{
+    
+}
+#row-fluid-ProjectName
+{
+    background: #ffffff;
+    color: #a3a5a9;
+    margin-bottom: 0%;
+    margin-top: -3.3%;
+    position: absolute;
+    text-align: right;
+    z-index: -10;
+    border: 1px solid #e1e4e9;
+}
+#ProjectName
+{
+    margin-left: 210px !important;
+    font-size: 28px !important;
+    font-weight: 700 !important;
+    padding: 0.7% 18px 9px 0 !important;
+    overflow: hidden !important;
+    white-space: nowrap !important;
+    display: inline-block;
+}
+div.row-fluid
+{
+    margin-bottom: 71px;
+    margin-top: 62px;
+    position: initial !important;
+}
+.content
+{
+    padding-top: 17px;
+}
+.alert-info, .table tbody tr.info > td
+{
+    width: 94%;
+}
+.rowBC
+{
+    margin-top: -120px !important;
+}
+.btn-breadcrumb .btn
+{
+    padding: 7px 12px 4px 24px !important;
+}
+.btn-breadcrumb .btn:first-child
+{
+    padding: 8px 13px 6px 10px !important;
+}
+#return-to-top i
+{
+   
+    top: 12px;
+   
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px)
+{
+    div.row-fluid
+    {
+        margin-bottom: 0px !important;
+    }
+    #row-fluid-ProjectName
+    {
+        width: 420px;
+        margin-top: -1.2%;
+    }
+    #ProjectName
+    {
+        font-size: 22px !important;
+        padding: 1.9% 18px 9px 0 !important;
+    }
+
+    .content
+    {
+        width: 480px;
+        padding-top: 40px;
+    }
+    .breadcrumb
+    {
+        margin: -23px 0 !important;
+    }
+    .alert-info, .table tbody tr.info > td
+    {
+        width: 84% !important;
+    }
+    .rowBC
+    {
+        margin-top: -44px;
+    }
+    .btn-breadcrumb .btn
+    {
+        padding: 12px 12px 4px 24px !important;
+        font-weight: bold;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: calc(8vw);
+    }
+    .btn-breadcrumb .btn:first-child
+    {
+        padding: 13px 13px 6px 10px !important;
+    }
+    .btn-breadcrumb .btn:last-child
+    {
+        padding: 12px 4px 4px 4px !important;
+        white-space: nowrap;
+        font-weight: bold;
+        text-overflow: initial;
+        width: calc(60vw) !important;
+    }
+    .controls .col-md-2 select
+    {
+        margin-top: 250px !important;
+        margin-left: 9px !important;
+        width: 175px;
+        height: 29px;
+    }
+    .controls .col-md-2 span
+    {
+        margin-top: 256px !important;
+        margin-left: 182px !important;
+        font-size: 0px !important;
+        overflow: hidden !important;
+        width:20px !important;
+    }
+    .label_type
+    {
+        font-size: 0px !important;
+        overflow: hidden !important;
+    }
+}
+/* Smartphones (landscape) ----------- */
+@media only screen and (orientation : landscape) and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2)
+{
+    .btn-breadcrumb
+    {
+        margin-top: 0px;
+    }
+    div.row-fluid
+    {
+        margin-bottom: 31px;
+    }
+    #ProjectName
+    {
+        padding: 0.5% 0 20px 0 !important;
+        font-size: 30px !important;
+    }
+    .controls .col-md-2 select
+    {
+        margin-top: 223px !important;
+        margin-left: 115px !important;
+        width: 175px;
+        height: 29px;
+        z-index: 1 !important;
+    }
+    .controls .col-md-2 span
+    {
+        margin-top: 225px !important;
+        margin-left: 285px !important;
+        z-index: 1 !important;
+        overflow: hidden !important;
+    }
+    .label_type
+    {
+        font-size: 0px !important;
+        margin-left: 182px !important;
+    }
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)
+{
+    div.row-fluid
+    {
+        margin-bottom: 22px !important;
+    }
+    #row-fluid-ProjectName
+    {
+        width: 1024px;
+        margin-top: -3.6%;
+    }
+    .content
+    {
+        width: 1024px;
+    }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)
+{
+    div.row-fluid
+    {
+        margin-bottom: 43px !important;
+    }
+    #ProjectName
+    {
+        padding: 1% 0 20px 0 !important;
+        font-size: 30px !important;
+    }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait)
+{
+    div.row-fluid
+    {
+        margin-bottom: 35px !important;
+    }
+    #ProjectName
+    {
+        padding: 1.5% 0 20px 0 !important;
+        font-size: 30px !important;
+    }
+}

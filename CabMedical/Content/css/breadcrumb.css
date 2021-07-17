@@ -1,0 +1,240 @@
+﻿.login-wrapper .bg-pic > img
+{
+    width: 100%;
+}
+
+/*==============================================================================================
+========================================= BREADCRUMBS ==========================================
+==============================================================================================*/
+
+.breadcrumb
+{
+    background-color: #efefef;
+    border-radius: 0;
+    font-size: 11px !important;
+    height: 22px !important;
+    list-style: none;
+    position: fixed !important;
+    z-index: 4 !important;
+    width: 100% !important;
+    margin: 1px 0 !important;
+    padding: 5px 20px;
+    -webkit-box-shadow: 0 1px rgba(0, 0, 0, .1);
+    box-shadow: 0 1px rgba(0, 0, 0, .1);
+    margin-bottom: 20px !important;
+    text-align: left !important;
+}
+
+.fullHeight .breadcrumb
+{
+    margin-bottom: 1px;
+}
+
+.breadcrumb a
+{
+    color: #616161;
+    font-weight: bold;
+    font-size: 11.5px;
+}
+.breadcrumb li.active
+{
+    color: #616161;
+    font-size: 11.5px;
+}
+
+.breadcrumb span.time
+{
+    margin-left: 5px;
+    color: #979595;
+}
+.breadcrumb i
+{
+    font-size: 14px;
+    color: #616161 !important;
+}
+
+.breadcrumb .divider i
+{
+    color: #616161;
+    font-size: 11px;
+}
+#return-to-top
+{
+    z-index: 5;
+}
+/*==============================================================================================
+========================== MOREOPTIONS DROPDOWN MENU SETTINGS ==================================
+==============================================================================================*/
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px)
+{
+    .input-append .add-on-mini#profile span.username {
+
+    font-size: 0px;
+}
+    .breadcrumb
+    {
+        background-color: #efefef;
+        border-radius: 0;
+        font-size: 11px;
+        height: 20px;
+        list-style: none;
+        position: fixed !important;
+        z-index: 999 !important;
+        width: 100% !important;
+        padding: 5px 20px;
+        -webkit-box-shadow: 0 1px rgba(0, 0, 0, .1);
+        box-shadow: 0 1px rgba(0, 0, 0, .1);
+        margin-bottom: 20px;
+    }
+    .navbar-fixed-top .navbar-inner, .navbar-fixed-bottom .navbar-inner
+    {
+        position: fixed !important;
+        z-index: 999 !important;
+        width: 100% !important;
+        padding: 0px;
+    }
+
+
+    #cssmenu ul li
+    {
+        float: left;
+        margin-right: 4px;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        z-index: 5;
+    }
+
+    #cssmenu ul li a span
+    {
+        color: Red;
+        font-size: 0;
+    }
+    #cssmenu ul li a span i
+    {
+        display: inline-block;
+        color: White;
+        font-size: initial;
+    }
+ 
+    .metro-nav .metro-nav-block .info
+    {
+        font-size: 16px;
+        top: 130px;
+    }
+    .metro-nav .metro-nav-block .status, .metro-nav .metro-nav-block .tile-status
+    {
+        font-size: 15px;
+    }
+
+    .breadcrumb
+    {
+        overflow: hidden;
+        -ms-text-overflow: ellipsis;
+        -o-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+        display: block;
+        z-index: 5555;
+        max-width: 100%;
+    }
+
+    ul.breadcrumb
+    {
+        text-overflow: initial;
+        white-space: nowrap;
+    }
+    .breadcrumb > li
+    {
+        display: table-cell;
+    }
+    .breadcrumb li:not(.caret)
+    {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: calc(15vw);
+    }
+    .breadcrumb li:nth-child(1)
+    {
+        max-width: 100%;
+    }
+  .breadcrumb li:nth-child(2)
+    {
+        max-width: 100%;
+    }
+
+    .breadcrumb li:last-of-type
+    {
+        white-space: nowrap;
+        overflow: auto;
+        max-width: none;
+        font-weight: bold;
+        text-overflow: initial;
+    }
+
+
+
+    .breadcrumb li.caret
+    {
+        margin: 0px 16px;
+    }
+
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-device-width: 320px) and (max-device-height : 480px) and (orientation: landscape)
+{
+    #cssmenu
+    {
+        margin-top: 4% !important;
+    }
+    #cssmenu ul li
+    {
+        float: left;
+        margin-right: 4px;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        z-index: 5;
+    }
+
+    #cssmenu ul li a span
+    {
+        color: Red;
+        font-size: 0;
+    }
+    #cssmenu ul li a span i
+    {
+        display: inline-block;
+        color: White;
+        font-size: initial;
+    }
+   
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)
+{
+    .breadcrumb
+    {
+        background-color: #efefef;
+        border-radius: 0;
+        font-size: 11px;
+        height: 20px;
+        list-style: none;
+        position: fixed !important;
+        z-index: 999 !important;
+        width: 100% !important;
+        margin: 5px 0;
+        padding: 5px 20px;
+        -webkit-box-shadow: 0 1px rgba(0, 0, 0, .1);
+        box-shadow: 0 1px rgba(0, 0, 0, .1);
+        margin-bottom: 20px;
+    }
+    .col-sm-4
+    {
+        width: 100%;
+    }
+
+}
+
+
+
+

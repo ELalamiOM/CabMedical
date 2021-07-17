@@ -1,0 +1,105 @@
+﻿ .dataTable tr td,.dataTable tr th{
+    text-align: left;
+    background-color: #fff;
+    border: none;
+    padding: 4px;
+    vertical-align: initial;
+    margin-top: 10px;
+    margin:0px !important;
+    padding:5px !important;
+   
+}
+.dataTable  tr td
+{
+    font: normal 13px/18px helvetica, Sans-serif;
+     border-top: #e2e2e2 1px solid !important;
+     border-left: #e2e2e2 1px solid !important;
+
+}
+.dataTable  tr th
+{
+   font: bold 13.5px/18px "Source Sans Pro", sans-serif;
+     border-left: #e2e2e2 1px solid !important;
+      border-bottom: #e2e2e2 1px solid !important;
+       border-top: #e2e2e2 1px solid !important;
+       background: #f5f5f5; 
+    box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;   
+}
+
+.dataTable thead.filters  tr th
+{
+      border-top: #616161  4px solid !important;
+        border-bottom: #e2e2e2 0px solid !important;
+}
+.dataTable thead.filters  tr th input
+{
+     opacity: 0.5;
+}
+.dataTable
+{
+     border-right: #e2e2e2 1px solid !important;
+      border-bottom: #e2e2e2 1px solid !important;
+    }
+.dataTable th, .dataTable td {
+    line-height: 20px;
+    text-align: left;
+    vertical-align: top;
+    border-top: 1px solid #dddddd;
+}
+
+.dataTable {
+  max-width : 100%; 
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+    
+
+.img {
+    width: auto\9;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+
+
+
+.dataTable thead.filters  tr th input::-webkit-input-placeholder {
+  font-style: italic;
+}
+div.dataTables_wrapper div.dataTables_filter input {
+    margin-left: 0em;
+    display: inline-block;
+    width: auto;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.dataTable  tr td
+{
+  vertical-align:middle !important;
+  
+}
+ .table-striped tbody tr.selected td {
+            background: #FFFFEE;
+  }
+  
+  .dropdown-item:hover
+  {
+       background-color:#ddd !important;
+      }
+      
+      
+      .filters th input
+      {
+          
+      width:100%;
+    background-image: url("../Images/search.png");
+    background-repeat: no-repeat;
+    background-position:right;
+    border: #989595 0.5px solid !important;
+    }
+    
+    

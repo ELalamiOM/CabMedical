@@ -1,0 +1,178 @@
+﻿/* ----------u-------------- 22/02/2017 -----------------ss----------------*/
+html
+{
+    font-size: auto !important;
+}
+#top .navbar
+{
+    padding: 0;
+    margin-bottom: 0;
+    background: #22262f !important;
+    position: fixed;
+    width: 100%;
+    z-index: 6;
+}
+.container-fluid
+{
+    margin-left: 0;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#top .topnav
+{
+    margin: 3px 0px 0px 0;
+}
+
+
+#top .topnav
+{
+    padding: 0 !important;
+    text-align: left;
+}
+
+.float-xs-right
+{
+    float: right !important;
+}
+.open > .dropdown-menu
+{
+    display: block;
+}
+
+.dropdown-menu
+{
+    position: absolute;
+    top: 100%;
+    left: 0 ;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    min-width: 92px !important;
+    padding: 0.8rem 0rem 0.8rem 0rem !important;
+    margin: 0.125rem 0 0;
+    font-size: 1rem;
+    color: #282828;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+}
+.dropdown-item
+{
+    display: block;
+    padding: 7px 2rem 7px 2rem !important;
+    clear: both;
+    font-weight: normal;
+    color: #282828;
+    text-align: inherit;
+    white-space: nowrap;
+    background: none;
+    border: 0;
+}
+
+@-moz-document url-prefix() {
+    .fa-reorder {
+        margin-top: -17px;
+    }
+}
+.fa
+{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 14px;
+}
+.topnav .btn
+{
+    width: 195px !important;
+    height: 30px !important;
+}
+.btn
+{
+    display: inline-block;
+    font-weight: normal;
+    line-height: 1.25;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 14px !important;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+}
+
+
+a.dropdown-item
+{
+    font-size: 14px;
+}
+.dropdown-item:focus, .dropdown-item:hover
+{
+    color: #1b1b1b;
+    text-decoration: none;
+    background-color: #f5f5f5;
+}
+.dropdown-item.active, .dropdown-item.active:focus, .dropdown-item.active:hover
+{
+    color: #fff;
+    text-decoration: none;
+    background-color: #00c0ef;
+    outline: 0;
+}
+.dropdown-item.disabled, .dropdown-item.disabled:focus, .dropdown-item.disabled:hover
+{
+    color: #424242;
+}
+.dropdown-item.disabled:focus, .dropdown-item.disabled:hover
+{
+    text-decoration: none;
+    cursor: not-allowed;
+    background-color: transparent;
+    background-image: none;
+    filter: "progid:DXImageTransform.Microsoft.gradient(enabled = false)";
+}
+.dropdown-item:hover
+{
+    background-color: #e2e2e2;
+}
+.datepicker-years
+{
+    width: 360px;
+}
+.datepicker-months
+{
+    width: 360px;
+}
+.datepicker-days
+{
+    width: 360px;
+}
+.table-condensed
+{
+    width:100%;
+}
+/* --------------------Mobile------------------------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px)
+{
+   .topnav .btn {
+    width: 70px !important;
+    height: 30px !important;
+        font-size: 0px !important;
+}
+.open > .dropdown-menu {
+    display: block;
+    left: -79px;
+}
+}

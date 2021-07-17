@@ -1,0 +1,131 @@
+﻿
+
+.breadcrumb
+{
+    margin: 7px 0 !important;
+}
+#cssmenu ul li a
+{
+    padding: 21px 30px 10px 30px !important;
+}
+#cssmenu
+{
+    margin-top: 3.3% !important;
+}
+/*.projectName{left:64% !important;margin-top:42px !important;position:absolute !important;}*/
+.metro-nav .metro-nav-block i
+{
+    margin-top: 64px;
+}
+.opc
+{
+    opacity: 0.2;
+}
+[class^="icon-"], [class*=" icon-"]
+{
+    line-height: 0;
+}
+.breadcrumb
+{
+    margin-bottom: 2px;
+}
+
+.blk1
+{
+    background: #058E05;
+}
+
+.blk2
+{
+    background: #00b300;
+}
+.blk3
+{
+    background: #67BB13;
+}
+.blk4
+{
+    background: #6bbd42;
+}
+
+
+.blk5
+{
+    background: #cb7300;
+}
+.blk6
+{
+    background: #ff8000
+}
+.blk7
+{
+    background: #F0A30A
+}
+.blk8
+{
+    background: #ffa34d;
+}
+
+
+
+.blk9
+{
+    background: #016BC2;
+}
+.blk10
+{
+    background: #1d97c5;
+}
+.blk11
+{
+    background: #1db2d7;
+}
+.blk12
+{
+    background: #6dbfdf;
+}
+.blk13
+{
+    background: #93de6e;
+}
+.blk14
+{
+    background: #fdb36e;
+}
+.blk15
+{
+    background: #9bdaf3;
+}
+.blk16
+{
+    background: #6dbfdf;
+}
+
+.blkAdmin
+{
+    background: #a6a6a6;
+}
+
+.red, span.label.banned
+{
+    background-color: #FF4444;
+}
+.notifyCircle
+{
+    color: white;
+    border-radius: 25px;
+    -webkit-box-shadow: inset 0 0 1px 1px rgba(0, 0, 0, .1);
+    box-shadow: inset 0 0 1px 1px rgba(0, 0, 0, .1);
+    font: bold 20px/15px Helvetica, Verdana, Tahoma;
+    height: 20px;
+    margin-left: 87%;
+    min-width: 23px;
+    padding: 6px 4px 0 2px;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .3);
+    top: 0px;
+    left: 1px;
+    z-index: 2;
+}
+

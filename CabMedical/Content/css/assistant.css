@@ -1,0 +1,43 @@
+
+.new span{font-family:Segoe UI Semibold;font-size:17px;font-weight:bold !important;}
+
+
+
+.assistant{color:#fff;margin:0 17px;}
+.assistant:focus{color:#fff;}
+.new{box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;position:relative;
+	display:inline-block;overflow:hidden;height:53px;border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px;
+	line-height:30px;font-size:16px;font-weight:bold;text-shadow:0px 1px 1px #888;}
+.new span.icon,.new span.title{display:block;position:relative;line-height:50px;padding:0 30px;border-radius:6px;
+	-moz-border-radius:6px;-webkit-border-radius:6px;}
+.new span.left{float:left;border-radius:6px 0 0 6px;-moz-border-radius:6px 0 0 6px;-webkit-border-radius:6px 0 0 6px;}
+.new span.right{float:right;border-radius:0 6px 6px 0;-moz-border-radius:0 6px 6px 0;-webkit-border-radius:0 6px 6px 0;}
+.new span.icon{font-size:23px;background-color:#09a509;-webkit-box-shadow:0 3px 0 0 #007261;box-shadow:0 3px 0 0 #007261;
+	text-shadow:0px 1px 1px #888;}
+.new span.title{-webkit-box-shadow:0 3px 0 0 #00ae94;box-shadow:0 3px 0 0 #00ae94;background-color:#5CB85C;}
+.new span.arrow-left,.new span.arrow-right{position:absolute;width:0;height:0;border-top:25px solid transparent;
+	border-bottom:25px solid transparent;-webkit-transition:all .15s;-transition:all .15s;-webkit-transition-property:left,right;
+	transition-property:left,right;}
+.new.left span.arrow-left{right:0;-webkit-box-shadow:10px 0 0 0 #00cdae,10px 3px 0 0 #00ae94;box-shadow:10px 0 0 0 #00cdae,10px 3px 0 0 #00ae94;
+	border-right:10px solid #00cdae;}
+.new.right span.arrow-left{right:0;-webkit-box-shadow:10px 0 0 0 #00967f,10px 3px 0 0 #007261;
+	box-shadow:10px 0 0 0 #00967f,10px 3px 0 0 #007261;border-right:10px solid #00967f;}
+.new.left span.arrow-right{left:0;-webkit-box-shadow:-10px 0 0 0 #00967f,-10px 3px 0 0 #007261;
+	box-shadow:-10px 0 0 0 #00967f,-10px 3px 0 0 #007261;border-left:10px solid #00967f;}
+.new.right span.arrow-right{left:0;-webkit-box-shadow:-10px 0 0 0 #00cdae,-10px 3px 0 0 #00ae94;
+	box-shadow:-10px 0 0 0 #5CB85C,-10px 3px 0 0 #00ae94;border-left:10px solid #5CB85C;}
+.new span.slant-left,.new span.slant-right{position:absolute;width:0;height:0;
+	border-top:0 solid transparent;border-bottom:50px solid transparent;-webkit-transition:all .15s;
+	-transition:all .15s;-webkit-transition-property:left,right;transition-property:left,right;}
+.new.left span.slant-right{left:0;-webkit-box-shadow:-10px 0 0 0 #00967f,-10px 3px 0 0 #007261;
+	box-shadow:-10px 0 0 0 #00967f,-10px 3px 0 0 #007261;border-left:10px solid #00967f;}
+.new.right span.slant-right{left:0;-webkit-box-shadow:-10px 0 0 0 #00cdae,-10px 3px 0 0 #00ae94;
+	box-shadow:-10px 0 0 0 #00cdae,-10px 3px 0 0 #00ae94;border-left:10px solid #00cdae;}
+.new.left span.slant-left{right:0;-webkit-box-shadow:10px 0 0 0 #00cdae,10px 3px 0 0 #00ae94;
+	box-shadow:10px 0 0 0 #00cdae,10px 3px 0 0 #00ae94;border-right:10px solid #00cdae;}
+.new.right span.slant-left{right:0;-webkit-box-shadow:10px 0 0 0 #00967f,10px 3px 0 0 #007261;
+	box-shadow:10px 0 0 0 #00967f,10px 3px 0 0 #007261;border-right:10px solid #00967f;}
+.new:active,.new.active{height:51px;color:#fff;}
+.new:hover{color:#fff;}.new:hover span.arrow-left{right:10px;}.new:hover span.arrow-right{left:10px;}
+.new:hover span.slant-left{right:10px;}.new:hover span.slant-right{left:10px;}
+

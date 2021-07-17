@@ -1,0 +1,211 @@
+﻿
+#row-fluid-ProjectName
+{
+    background: #ffffff;
+    color: #a3a5a9;
+    margin-bottom: 0%;
+    margin-top: -3.3%;
+    position: absolute;
+    text-align: right;
+    z-index: -10;
+    border: 1px solid #e1e4e9;
+}
+#ProjectName
+{
+    margin-left: 210px !important;
+    font-size: 28px !important;
+    font-weight: 700 !important;
+    padding: 0.7% 18px 9px 0 !important;
+    overflow: hidden !important;
+    white-space: nowrap !important;
+    display: inline-block;
+}
+
+.row
+{
+    margin-right: -15px;
+    margin-left: 20px;
+}
+@media (min-width: 1200px)
+{
+    .col-lg-4
+    {
+        width: 33.33333333%;
+    }
+    .col-lg-6
+    {
+        width: 50%;
+    }
+}
+.p-xl
+{
+    padding: 40px;
+}
+.lazur-bg, .bg-info
+{
+    background-color: #23c6c8;
+    color: #ffffff;
+}
+.navy-bg
+{
+    background-color: #1ab394;
+    color: #ffffff;
+}
+.yellow-bg
+{
+    background-color: #f8ac59;
+    color: #ffffff;
+}
+.widget
+{
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.widget h2, .widget h3
+{
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.m-t-md
+{
+    margin-top: 20px;
+}
+.list-unstyled
+{
+    padding-left: 0;
+    list-style: none;
+}
+.m-r-xs
+{
+    margin-right: 5px;
+}
+.LabelsDS
+{
+    font-size: 24px !important;
+}
+
+.ibox
+{
+    clear: both;
+    margin-bottom: 25px;
+    margin-top: 0;
+    padding: 0;
+}
+.ibox-title
+{
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #ffffff;
+    border-color: #e7eaec;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 2px 0 0;
+    color: inherit;
+    margin-bottom: 0;
+    padding: 15px 15px 7px;
+    min-height: 48px;
+}
+.ibox-title h5
+{
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 0 7px;
+    padding: 0;
+    text-overflow: ellipsis;
+    float: left;
+}
+.ibox-tools
+{
+    display: block;
+    float: none;
+    margin-top: 0;
+    position: relative;
+    padding: 0;
+    text-align: right;
+}
+.ibox-tools a
+{
+    cursor: pointer;
+    margin-left: 5px;
+    color: #c4c4c4;
+}
+.ibox-content
+{
+    clear: both;
+}
+.ibox-content
+{
+    background-color: #ffffff;
+    color: inherit;
+    padding: 15px 20px 20px 20px;
+    border-color: #e7eaec;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 0;
+}
+.table-bordered
+{
+    border: 1px solid #EBEBEB !important;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td
+{
+    border-top: 1px solid #e7eaec !important;
+    line-height: 1.42857;
+    padding: 8px;
+    vertical-align: top;
+}
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td
+{
+    border: 1px solid #e7e7e7 !important;
+}
+.table-bordered > thead > tr > th, .table-bordered > thead > tr > td
+{
+    background-color: #F5F5F6;
+    border-bottom-width: 1px;
+}
+.table > thead > tr > th
+{
+    border-bottom: 1px solid #DDDDDD !important;
+    vertical-align: bottom;
+}
+.fa-plus-circle, .fa-wrench
+{
+    font-size: 20px;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px)
+{
+    #row-fluid-ProjectName
+    {
+        margin-top: -13.3%;
+    }
+    #ProjectName
+    {
+        padding: 4.7% 18px 8px 0px !important;
+        margin-left: 110px !important;
+    }
+    .ibox-content
+    {
+        padding: 15px 20px 20px 0px;
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-device-width: 320px) and (orientation: landscape)
+{
+    .rowBC
+    {
+        margin-top: -22px !important;
+    }
+    .btn-breadcrumb
+    {
+        margin-top: -5px;
+    }
+    #row-fluid-ProjectName
+    {
+        margin-top: -7.3%;
+    }
+}

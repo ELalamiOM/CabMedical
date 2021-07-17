@@ -1,0 +1,57 @@
+ .btn-success 
+    {
+        background-color: #607d8b !important ;
+        border-color: #7b7b7b !important;
+    }
+    .btn-group{
+        background-color: #607d8b !important ;
+        border-color: #7b7b7b !important;
+    }
+    .btn-breadcrumb
+    {   background-color: #607d8b !important ;
+        border-color: #7b7b7b !important;
+        }
+    #activebc {
+    color: #fff;
+    background-color: #5c5f61  !important;
+    border-color: #4e4e4e !important;
+    }
+    #activebc:hover,#activebc:focus {
+    color: #fff;
+    background-color: #5c5f61 !important;
+    border-color: #4e4e4e !important;
+    }
+    .btn-breadcrumb .btn.btn-success:not(:last-child):after {
+    border-left: 10px solid #607d8b !important ;
+}
+.btn-success:hover, .btn-success:focus {
+    color: #fff;
+    background-color: #5c5f61 !important;
+    border-color: #4e4e4e !important;
+}
+.btn-breadcrumb .btn.btn-success:not(:last-child):before {
+    border-left: 10px solid #5c5f61!important;
+}
+#cssmenu , #bg-one
+{
+    background:#607d8b !important;
+    }
+    #cssmenu ul li:hover, #cssmenu ul li.active {
+    background: #607D8B !important ;
+}
+
+.navbar
+        {
+top: 0px !important;
+            } 
+            .rowbc
+            {
+                top: 80px;
+                }
+                
+                
+                
+            .TableStyle01    td {
+    margin-top: 10px;
+    padding: 5px;
+}

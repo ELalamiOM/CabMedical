@@ -1,0 +1,240 @@
+﻿.width_NC
+{
+    width: 50px !important;
+}
+th > .m-checkbox.m-checkbox--single, td > .m-checkbox.m-checkbox--single {
+    right: -15px !important;
+}
+.Hidee
+{
+    display: none;
+}
+.Txtarea
+{
+    min-height: 35px;
+    max-height: 105px;
+}
+
+
+
+.metro-nav-block
+{
+        
+    height: 160px !important;
+}
+.metro-icon-block
+{color: #ffffff !important;
+    font-size: 6rem !important;
+}
+.metro-font-block
+{color: #ffffff !important;
+    font-size: 1.45rem !important;
+}
+.metro-nav-block:hover
+{     opacity: 0.8;
+    }
+a:hover {
+    /*  color: #ffffff !important; */
+    text-decoration: none !important;
+}
+.m-menu__link-icon
+{
+        line-height: 1 !important;
+    }
+    
+   .plan-highlight
+    {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 170px;
+    }
+    .plan-recommended
+    {
+        width: 95%;
+        margin: -15px auto 15px;
+        padding: 12px 14px 9px 6px;
+        line-height: 22px;
+        font-size: 22px;
+        font-weight: bold;
+        color: white;
+        text-shadow: 0 1px rgba(0, 0, 0, 0.05);
+        border-radius: 0 0 4px 4px;
+    }
+    .plan-title
+    {
+        margin-bottom: 12px;
+        font-size: 24px;
+        color: #36bce6;
+    }
+    
+    .plan-price
+    {
+        margin-bottom: 20px;
+        line-height: 1;
+        font-size: 28px;
+        font-weight: bold;
+        color: #fd935a;
+    }
+    .plan-features
+    {
+        text-align: left;
+        margin-bottom: 30px;
+    }
+    .plan-feature
+    {
+        padding: 7px 0px 2px 0px;
+        line-height: 20px;
+        font-size: 14px;
+        border-top: 1px solid #e5ded6;
+        font-weight: bold;
+        color: #757986;
+    }
+    .plan-feature-name
+    {
+        font-size: 15px;
+        font-weight: normal;
+        color: #aaa;
+    }
+    .plan-highlight .plan-button
+    {
+        font-size: 21px;
+        line-height: 49px;
+        border-color: #3996b3;
+        border-color: rgba(0, 0, 0, 0.15);
+    }
+    .plan-button
+    {
+        position: relative;
+        display: block;
+        line-height: 40px;
+        font-size: 16px;
+        font-weight: 500;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+        border-bottom: 2px solid #cf7e3b;
+        border-color: rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+    }
+    .plan-unit
+    {
+        display: block;
+        margin-top: 5px;
+        font-size: 13px;
+        font-weight: normal;
+        color: #aaa;
+    }
+    .plan
+    {
+        float: left;
+        width: 100%;
+        margin: 15px 15px 15px 15px;
+        padding: 15px 25px;
+        text-align: center;
+        background: #f4f4f4;
+        background-clip: padding-box;
+        border-color: rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        min-width: 60%;
+    }
+    ol, ul
+    {
+        list-style: none;
+    }
+    .plan-features
+    {
+        font-family: monospace;
+    }
+    .barLogo
+    {
+        text-transform: uppercase !important;
+    }
+
+.m-widget20 .icon-style-widget
+{
+    font-size: 12rem; margin-right: 5px;
+                                    position: absolute; top: -30%; right: 30%; opacity: 0.2; 
+    }    
+   .m-widget20 .icon-style-widget-oth
+    {
+        font-size: 12rem;
+    margin-right: 5px;
+    position: absolute;
+    top: -16%;
+    right: 20%;
+        }
+    
+@media (max-width: 992px)
+{
+   .m-widget20 .icon-style-widget
+{
+    font-size: 12rem; margin-right: 5px;
+                                    position: absolute; top: -30%;    right: 25%;  opacity: 0.2; ;
+    }   
+    .m-widget20 .icon-style-widget-oth
+    {
+        font-size: 12rem;
+    margin-right: 5px;
+    position: absolute;
+    top: -16%;
+    right: 24%;
+        }
+}    
+
+
+.alertD
+{
+        border: 2px solid #0000000d  !important;
+            background-color: #fbfbfc !important;
+}
+
+.m-demo-icon .m-demo-icon__class {
+     width: 65% !important; 
+    /* display: table-cell; */
+    /* vertical-align: middle; */
+    /* text-align: left; */
+    position: relative;
+    /* padding: 0; */
+    font-size: 0.85rem;
+    font-weight: 400;
+    left: 1;
+    /* bottom: 15px; */
+    /*left: 138px;*/
+    font-size: 22px;
+    /* right: 25px; */
+    /* font-weight: bold; */
+    /* letter-spacing: 1px; */
+    /* line-height: 30px; */
+}
+.m-demo-icon {
+    margin-bottom: 20px;
+    display: table;
+    padding: 10px;
+    width: 100%;
+}
+
+@media (max-width: 992px)
+{
+SS    .metro-font-block {    
+    font-size: 1.35rem !important;
+}
+    .m-demo-icon .m-demo-icon__class 
+    {
+            width: 55% !important;
+        }
+    .m-demo-icon 
+    {
+        }
+    }
+    
+    
+.him
+{
+    }
+    
+.me
+{
+    }

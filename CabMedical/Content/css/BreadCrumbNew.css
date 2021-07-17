@@ -1,0 +1,380 @@
+/** The Magic **/
+btn-breadcrumb > .btn.disabled
+{
+    opacity: 1 !important;
+    color: #999;
+}
+.btn-success.disabled, .btn-success.disabled:hover, .btn-success.disabled:active {
+    background: #616161 !important;
+}
+.btn-breadcrumb .btn:not(:last-child):after
+{
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 17px solid transparent;
+    border-bottom: 17px solid transparent;
+    border-left: 10px solid white;
+    position: absolute;
+    top: 45%;
+    margin-top: -17px;
+    margin-left: -1px;
+    left: 100%;
+    z-index: 3;
+}
+.btn-breadcrumb .btn:not(:last-child):before
+{
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 17px solid transparent;
+    border-bottom: 17px solid transparent;
+    border-left: 10px solid rgb(173, 173, 173);
+    position: absolute;
+    top: 45%;
+    margin-top: -17px;
+    margin-left: -1px;
+    left: 100%;
+    z-index: 3;
+}
+
+/** The Spacing **/
+.btn-breadcrumb .btn
+{
+    padding: 4px 12px 4px 24px !important;
+}
+.btn-breadcrumb .btn:first-child
+{
+    padding: 8px 12px 6px 10px !important;
+}
+.btn-breadcrumb .btn:last-child
+{
+    padding: 6px 18px 6px 24px;
+}
+
+/** Default button **/
+.btn-breadcrumb .btn.btn-default:not(:last-child):after
+{
+    border-left: 10px solid #fff;
+}
+.btn-breadcrumb .btn.btn-default:not(:last-child):before
+{
+    border-left: 10px solid #ccc;
+}
+.btn-breadcrumb .btn.btn-default:hover:not(:last-child):after
+{
+    border-left: 10px solid #ebebeb;
+}
+.btn-breadcrumb .btn.btn-default:hover:not(:last-child):before
+{
+    border-left: 10px solid #adadad;
+}
+
+/** Primary button **/
+.btn-breadcrumb .btn.btn-primary:not(:last-child):after
+{
+    border-left: 10px solid #428bca;
+}
+.btn-breadcrumb .btn.btn-primary:not(:last-child):before
+{
+    border-left: 10px solid #357ebd;
+}
+.btn-breadcrumb .btn.btn-primary:hover:not(:last-child):after
+{
+    border-left: 10px solid #3276b1;
+}
+.btn-breadcrumb .btn.btn-primary:hover:not(:last-child):before
+{
+    border-left: 10px solid #285e8e;
+}
+
+/** Success button **/
+.btn-breadcrumb .btn.btn-success:not(:last-child):after
+{
+    border-left: 10px solid #616161;
+}
+.btn-breadcrumb .btn.btn-success:not(:last-child):before
+{
+    border-left: 10px solid #616161;
+}
+.btn-breadcrumb .btn.btn-success:hover:not(:last-child):after
+{
+    border-left: 10px solid #444242;
+}
+.btn-breadcrumb .btn.btn-success:hover:not(:last-child):before
+{
+    border-left: 10px solid #333333;
+}
+
+/** Danger button **/
+.btn-breadcrumb .btn.btn-danger:not(:last-child):after
+{
+    border-left: 10px solid #d9534f;
+}
+.btn-breadcrumb .btn.btn-danger:not(:last-child):before
+{
+    border-left: 10px solid #d43f3a;
+}
+.btn-breadcrumb .btn.btn-danger:hover:not(:last-child):after
+{
+    border-left: 10px solid #d2322d;
+}
+.btn-breadcrumb .btn.btn-danger:hover:not(:last-child):before
+{
+    border-left: 10px solid #ac2925;
+}
+
+/** Warning button **/
+.btn-breadcrumb .btn.btn-warning:not(:last-child):after
+{
+    border-left: 10px solid #f0ad4e;
+}
+.btn-breadcrumb .btn.btn-warning:not(:last-child):before
+{
+    border-left: 10px solid #eea236;
+}
+.btn-breadcrumb .btn.btn-warning:hover:not(:last-child):after
+{
+    border-left: 10px solid #ed9c28;
+}
+.btn-breadcrumb .btn.btn-warning:hover:not(:last-child):before
+{
+    border-left: 10px solid #d58512;
+}
+
+/** Info button **/
+.btn-breadcrumb .btn.btn-info:not(:last-child):after
+{
+    border-left: 10px solid #5bc0de;
+}
+.btn-breadcrumb .btn.btn-info:not(:last-child):before
+{
+    border-left: 10px solid #46b8da;
+}
+.btn-breadcrumb .btn.btn-info:hover:not(:last-child):after
+{
+    border-left: 10px solid #39b3d7;
+}
+.btn-breadcrumb .btn.btn-info:hover:not(:last-child):before
+{
+    border-left: 10px solid #269abc;
+}
+
+.btn-success
+{
+    color: #fff;
+    background-color: #616161;
+    border-color: #4cae4c;
+}
+.rowBC
+{
+    margin-left: 0px !important;
+    background-color: #616161;
+    margin-top: -23px;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    height: 30px;
+    white-space: nowrap;
+    box-shadow: 0 -2px 20px rgba(0,0,0,0.2);
+}
+
+.fa .fa-home
+{
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+:before, :after
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.btn-group, .btn-group-vertical
+{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    white-space: nowrap;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    display: block;
+    z-index: 5555;
+    max-width: 100%;
+}
+.btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle)
+{
+    border-radius: 0;
+}
+.btn-group .btn + .btn, .btn-group .btn + .btn-group, .btn-group .btn-group + .btn, .btn-group .btn-group + .btn-group
+{
+    margin-left: -1px;
+}
+.btn-group > .btn, .btn-group-vertical > .btn
+{
+    position: relative;
+    float: left;
+}
+.btn
+{
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.btn-success
+{
+    color: #fff;
+    background-color: #616161;
+    border-color: #616161;
+}
+.btn-success:hover, .btn-success:focus
+{
+    color: #fff;
+    background-color: #444242;
+    border-color: #333;
+}
+#activebc
+{
+   color: #fff;
+    background-color: #444242;
+    border-color: #333;
+}
+.btn-breadcrumb
+{
+}
+div.row-fluid
+{
+    margin-top: 30px;
+}
+.btn-success:active:hover,
+.btn-success.active:hover,
+.open > .dropdown-toggle.btn-success:hover,
+.btn-success:active:focus,
+.btn-success.active:focus,
+.open > .dropdown-toggle.btn-success:focus,
+.btn-success:active.focus,
+.btn-success.active.focus,
+.open > .dropdown-toggle.btn-success.focus {
+  color: #fff;
+  background-color: #3a3737;
+  border-color: #333;
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px)
+{
+
+    .rowBC
+    {
+        margin-top: -22px;
+    }
+    .btn-breadcrumb
+    {
+        margin-top: -5px;
+    }
+
+    .btn-breadcrumb .btn
+    {
+        padding: 4px 4px 4px 4px !important;
+        white-space: nowrap;
+        overflow: auto;
+        font-weight: bold;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: calc(8vw);
+    }
+    .btn-breadcrumb .btn:first-child
+    {
+    }
+    .btn-breadcrumb .btn:last-child
+    {
+        padding: 4px 4px 4px 4px !important;
+        white-space: nowrap;
+        font-weight: bold;
+        text-overflow: initial;
+        width: calc(60vw) !important;
+    }
+
+
+    /*
+        .btn-breadcrumb .btn:last-child
+            {
+                white-space: nowrap;
+                overflow: auto;            
+                font-weight: bold;
+                text-overflow: initial;
+                width: 100% !important;
+            }
+         .btn-breadcrumb > .btn:nth-child(n+2)
+            {
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                width: calc(8vw);
+            }
+        */
+
+}
+
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-device-width: 320px) and (orientation: landscape)
+{
+    .rowBC
+    {
+        margin-top: -23px !important;
+    }
+    .btn-breadcrumb
+    {
+        margin-top: -5px;
+    }
+    #row-fluid-ProjectName
+    {
+        margin-top: -7.3%;
+    }
+    div.mainmenu {
+   
+     -webkit-box-shadow: none; 
+     box-shadow: none; 
+  
+}
+.metro-nav .metro-nav-block .info {
+    font-size: 20px;
+    position: absolute;
+    right: 11px;
+    top: 138px !important;
+      
+}
+.metro-nav .metro-nav-block .status, .metro-nav .metro-nav-block .tile-status {
+ 
+    font-size: 16px;
+    
+}
+}

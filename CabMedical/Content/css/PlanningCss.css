@@ -1,0 +1,398 @@
+﻿.PhaseExecution
+{
+    width: 310px;
+    height: 82px;
+    border: 1px solid #5BB12F;
+    animation-name: stretch;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-delay: 3;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    background-color: #5BB12F;
+    float: left;
+    opacity: 0.5 !important;
+}
+.PhaseExecution:hover
+{
+    opacity: 1 !important;
+    margin-top: -5px !important;
+    height: 92px !important;
+    transition-duration: 0.5s;
+}
+.PhaseEtude
+{
+    width: 310px;
+    height: 82px;
+    border: 1px solid #5BB12F;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    animation-name: stretch;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-delay: 3;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    background-color: #5BB12F;
+    float: left;
+    opacity: 0.5 !important;
+    margin-right: 2px;
+}
+
+.PhaseAchat
+{
+    width: 310px;
+    height: 82px;
+    border: 1px solid #5BB12F;
+    animation-name: stretch;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-delay: 3;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    background-color: #5BB12F;
+    float: left;
+    opacity: 0.5 !important;
+    margin-right: 2px;
+}
+.PhaseAchat:hover
+{
+    opacity: 1 !important;
+    margin-top: -5px !important;
+    height: 92px !important;
+    transition-duration: 0.5s;
+}
+.PhaseAchat:hover
+{
+    opacity: 1 !important;
+    margin-top: -5px !important;
+    height: 92px !important;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.PhaseEtude:hover
+{
+    opacity: 1 !important;
+    margin-top: -5px !important;
+    height: 92px !important;
+    transition-duration: 0.5s;
+}
+
+
+.PhaseReception
+{
+    width: 310px;
+    height: 82px;
+    border: 1px solid #5BB12F;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    animation-name: stretch;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-delay: 3;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    background-color: #5BB12F;
+    float: left;
+    opacity: 0.5 !important;
+    margin-left: 2px;
+}
+
+.PhaseReception:hover
+{
+    opacity: 1 !important;
+    margin-top: -5px !important;
+    height: 92px !important;
+    transition-duration: 0.5s;
+}
+
+#PhaseActive
+{
+    height: 92px;
+    opacity: 1 !important;
+    margin-top: -5px !important;
+}
+
+body
+{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    padding: 0 0 50px 0;
+}
+
+h1
+{
+    margin: 40px 0 20px 0;
+}
+h2
+{
+    font-size: 1.5em;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #DDD;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+table th:first-child
+{
+    width: 150px;
+}
+.glineitem
+{
+    cursor: pointer;
+}
+.ggroupitem
+{
+    cursor: pointer;
+}
+.phases
+{
+    position: absolute;
+    min-width: 1200px;
+    margin-top: 60px;
+    margin-left: 12%;
+}
+.gchartlbl
+{
+    padding-left: 0px !important;
+}
+.not_visible
+{
+    display: none;
+}
+.gchartcontainer {
+ 
+    background: white;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px)
+{
+    
+    #row-fluid-ProjectName
+    {
+        width: 113% !important;
+    }
+    .phases
+    {
+        position: absolute;
+        min-width: 480px;
+        margin-top: 60px;
+        margin-left: 15%;
+    }
+    .phases span
+    {
+        font-size: x-small !important;
+        color: White;
+        margin-left: 10px;
+        margin-top: 10px !important;
+        display: block;
+    }
+    .PhaseExecution
+    {
+        width: 30%;
+        height: 52px;
+    }
+    .PhaseEtude
+    {
+        width: 30%;
+        height: 50px;
+    }
+    .PhaseReception
+    {
+        width: 30%;
+        height: 50px;
+    }
+    #PhaseActive
+    {
+        height: 60px;
+        opacity: 1 !important;
+    }
+    .PhaseExecution:hover
+    {
+        width: 30% !important;
+        height: 60px !important;
+    }
+    .PhaseReception:hover
+    {
+        width: 30% !important;
+        height: 60px !important;
+    }
+    .PhaseEtude:hover
+    {
+        width: 30% !important;
+        height: 60px !important;
+    }
+    .gantt
+    {
+        min-width: 110% !important;
+        margin-top: 210px !important;
+    }
+
+    .not_visible
+    {
+        display: inline;
+    }
+    .gchartgrid
+    {
+        visibility: hidden;
+        overflow: hidden;
+    }
+    .gchartlbl
+    {
+        visibility: hidden;
+        overflow: hidden;
+    }
+    .glistgrid
+    {
+        width: 520px !important;
+    }
+    .glistlbl
+    {
+        width: 520px !important;
+    }
+
+}
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (max-device-height : 480px) and (-webkit-min-device-pixel-ratio : 2)
+{
+    .phases
+    {
+        position: absolute;
+        min-width: 480px;
+        margin-top: 60px;
+    }
+    .phases span
+    {
+        font-size: x-small !important;
+        color: White;
+        margin-left: 10px;
+        margin-top: 10px !important;
+        display: block;
+    }
+    .PhaseExecution
+    {
+        width: 30%;
+        height: 50px;
+    }
+    .PhaseEtude
+    {
+        width: 30%;
+        height: 50px;
+    }
+    .PhaseReception
+    {
+        width: 30%;
+        height: 50px;
+    }
+    #PhaseActive
+    {
+        height: 60px;
+        margin-top: -5px !important;
+        opacity: 1 !important;
+    }
+    .PhaseExecution:hover
+    {
+        width: 30% !important;
+        height: 60px !important;
+    }
+    .PhaseReception:hover
+    {
+        width: 30% !important;
+        height: 60px !important;
+    }
+    .PhaseEtude:hover
+    {
+        width: 30% !important;
+        height: 60px !important;
+    }
+
+    .not_visible
+    {
+        display: inline;
+    }
+    .gchartgrid
+    {
+        visibility: hidden;
+        overflow: hidden;
+    }
+    .gchartlbl
+    {
+        visibility: hidden;
+        overflow: hidden;
+    }
+    .glistlbl
+    {
+        width: 640px;
+        margin-left: -2%;
+    }
+    #scrollfix
+    {
+        overflow-x: hidden !important;
+        overflow-y: hidden !important;
+        display: none !important;
+    }
+
+    .glistgrid
+    {
+        width: 626px !important;
+        margin-left: 0% !important;
+    }
+    #GanttChartDIVgchartbody
+    {
+        display: none;
+    }
+    .glistlbl
+    {
+        width: 599px !important;
+        margin-left: 0% !important;
+    }
+    .gchartcontainer
+    {
+        background: white;
+    }
+    .btn-breadcrumb {
+    margin-top: -5px;
+}
+#ProjectName {
+    padding: 1.5% 10px 9px 0px !important;
+    font-size: 30px !important;
+}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2)
+{
+
+    #row-fluid-ProjectName
+    {
+        width: 176% !important;
+    }
+}
+@media only screen and (max-device-width: 1024px) and (min-device-width: 768px)
+{
+    #row-fluid-ProjectName
+    {
+        width: 176% !important;
+    }
+    #download
+    {
+        margin-right: -71% !important;
+    }
+    .phases
+    {
+        margin-left: 57%;
+    }
+    .gantt {
+    min-width: 160% !important;
+}
+}
